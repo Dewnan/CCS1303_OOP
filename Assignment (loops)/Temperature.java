@@ -3,6 +3,7 @@ import java.util.Arrays;
 class Main {
     public static void main(String[] args) {
         Temperature temp = new Temperature();
+        temp.errorCorrection();
         temp.toFarenheit();
         temp.disregard();
     }
