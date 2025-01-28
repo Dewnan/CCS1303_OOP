@@ -42,7 +42,6 @@ class Book{
         Book.removeBook(Book.TotalBookCount);
         System.out.println("Total Book Count after calling removeBook Method: " + Book.TotalBookCount);
     }
-
 }
 
 /*
